@@ -7,18 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		655B71E22AA2C2F8003D010A /* ComicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655B71E12AA2C2F8003D010A /* ComicData.swift */; };
+		655B71E42AA2C325003D010A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655B71E32AA2C325003D010A /* Extensions.swift */; };
 		655ED7D52A8C98D700800FC4 /* ComicReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED7D42A8C98D700800FC4 /* ComicReaderApp.swift */; };
 		655ED7D72A8C98D700800FC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED7D62A8C98D700800FC4 /* ContentView.swift */; };
 		655ED7D92A8C98D700800FC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655ED7D82A8C98D700800FC4 /* Assets.xcassets */; };
 		655ED7DC2A8C98D700800FC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655ED7DB2A8C98D700800FC4 /* Preview Assets.xcassets */; };
+		655ED7E82A8CD04B00800FC4 /* SwiftUIPager in Frameworks */ = {isa = PBXBuildFile; productRef = 655ED7E72A8CD04B00800FC4 /* SwiftUIPager */; };
+		655ED7F12A95E1ED00800FC4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED7F02A95E1ED00800FC4 /* Helper.swift */; };
+		655ED7F42A95E5E900800FC4 /* LibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED7F32A95E5E900800FC4 /* LibraryView.swift */; };
+		655ED7F62A95F8CE00800FC4 /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED7F52A95F8CE00800FC4 /* TabsView.swift */; };
+		655ED7FA2A96127300800FC4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED7F92A96127300800FC4 /* Constants.swift */; };
+		655ED7FC2A9624FF00800FC4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED7FB2A9624FF00800FC4 /* Card.swift */; };
+		655ED7FF2A97680100800FC4 /* ZipArchive in Frameworks */ = {isa = PBXBuildFile; productRef = 655ED7FE2A97680100800FC4 /* ZipArchive */; };
+		655ED8012A97774900800FC4 /* ComicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED8002A97774900800FC4 /* ComicView.swift */; };
+		655ED8032A98CC0900800FC4 /* ComicDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655ED8022A98CC0900800FC4 /* ComicDetailView.swift */; };
+		65ABE77C2A9E2036005E6A52 /* ImageModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65ABE77B2A9E2036005E6A52 /* ImageModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		655B71E12AA2C2F8003D010A /* ComicData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicData.swift; sourceTree = "<group>"; };
+		655B71E32AA2C325003D010A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		655ED7D12A8C98D700800FC4 /* ComicReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComicReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		655ED7D42A8C98D700800FC4 /* ComicReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicReaderApp.swift; sourceTree = "<group>"; };
 		655ED7D62A8C98D700800FC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		655ED7D82A8C98D700800FC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		655ED7DB2A8C98D700800FC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		655ED7F02A95E1ED00800FC4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		655ED7F22A95E55B00800FC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		655ED7F32A95E5E900800FC4 /* LibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryView.swift; sourceTree = "<group>"; };
+		655ED7F52A95F8CE00800FC4 /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		655ED7F92A96127300800FC4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		655ED7FB2A9624FF00800FC4 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		655ED8002A97774900800FC4 /* ComicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicView.swift; sourceTree = "<group>"; };
+		655ED8022A98CC0900800FC4 /* ComicDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicDetailView.swift; sourceTree = "<group>"; };
+		65ABE77B2A9E2036005E6A52 /* ImageModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				655ED7E82A8CD04B00800FC4 /* SwiftUIPager in Frameworks */,
+				655ED7FF2A97680100800FC4 /* ZipArchive in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +76,19 @@
 		655ED7D32A8C98D700800FC4 /* ComicReader */ = {
 			isa = PBXGroup;
 			children = (
+				655ED7F22A95E55B00800FC4 /* Info.plist */,
 				655ED7D42A8C98D700800FC4 /* ComicReaderApp.swift */,
+				65ABE77B2A9E2036005E6A52 /* ImageModifier.swift */,
+				655ED8022A98CC0900800FC4 /* ComicDetailView.swift */,
+				655ED7F32A95E5E900800FC4 /* LibraryView.swift */,
+				655ED7FB2A9624FF00800FC4 /* Card.swift */,
+				655ED7F52A95F8CE00800FC4 /* TabsView.swift */,
 				655ED7D62A8C98D700800FC4 /* ContentView.swift */,
+				655ED7F92A96127300800FC4 /* Constants.swift */,
+				655ED8002A97774900800FC4 /* ComicView.swift */,
+				655B71E32AA2C325003D010A /* Extensions.swift */,
+				655B71E12AA2C2F8003D010A /* ComicData.swift */,
+				655ED7F02A95E1ED00800FC4 /* Helper.swift */,
 				655ED7D82A8C98D700800FC4 /* Assets.xcassets */,
 				655ED7DA2A8C98D700800FC4 /* Preview Content */,
 			);
@@ -83,6 +119,10 @@
 			dependencies = (
 			);
 			name = ComicReader;
+			packageProductDependencies = (
+				655ED7E72A8CD04B00800FC4 /* SwiftUIPager */,
+				655ED7FE2A97680100800FC4 /* ZipArchive */,
+			);
 			productName = ComicReader;
 			productReference = 655ED7D12A8C98D700800FC4 /* ComicReader.app */;
 			productType = "com.apple.product-type.application";
@@ -95,7 +135,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					655ED7D02A8C98D700800FC4 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -111,6 +151,10 @@
 				Base,
 			);
 			mainGroup = 655ED7C82A8C98D600800FC4;
+			packageReferences = (
+				655ED7E62A8CD04B00800FC4 /* XCRemoteSwiftPackageReference "SwiftUIPager" */,
+				655ED7FD2A97680100800FC4 /* XCRemoteSwiftPackageReference "ZipArchive" */,
+			);
 			productRefGroup = 655ED7D22A8C98D700800FC4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +182,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				655ED7D72A8C98D700800FC4 /* ContentView.swift in Sources */,
+				655ED7F42A95E5E900800FC4 /* LibraryView.swift in Sources */,
 				655ED7D52A8C98D700800FC4 /* ComicReaderApp.swift in Sources */,
+				655ED7F12A95E1ED00800FC4 /* Helper.swift in Sources */,
+				655ED7FA2A96127300800FC4 /* Constants.swift in Sources */,
+				655ED7F62A95F8CE00800FC4 /* TabsView.swift in Sources */,
+				65ABE77C2A9E2036005E6A52 /* ImageModifier.swift in Sources */,
+				655B71E42AA2C325003D010A /* Extensions.swift in Sources */,
+				655B71E22AA2C2F8003D010A /* ComicData.swift in Sources */,
+				655ED8012A97774900800FC4 /* ComicView.swift in Sources */,
+				655ED7FC2A9624FF00800FC4 /* Card.swift in Sources */,
+				655ED8032A98CC0900800FC4 /* ComicDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +235,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -195,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -241,6 +296,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -249,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -270,11 +326,14 @@
 				DEVELOPMENT_TEAM = D7UAPTYYWC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ComicReader/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +358,14 @@
 				DEVELOPMENT_TEAM = D7UAPTYYWC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ComicReader/Info.plist;
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +401,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		655ED7E62A8CD04B00800FC4 /* XCRemoteSwiftPackageReference "SwiftUIPager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fermoya/SwiftUIPager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		655ED7FD2A97680100800FC4 /* XCRemoteSwiftPackageReference "ZipArchive" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ZipArchive/ZipArchive.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		655ED7E72A8CD04B00800FC4 /* SwiftUIPager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 655ED7E62A8CD04B00800FC4 /* XCRemoteSwiftPackageReference "SwiftUIPager" */;
+			productName = SwiftUIPager;
+		};
+		655ED7FE2A97680100800FC4 /* ZipArchive */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 655ED7FD2A97680100800FC4 /* XCRemoteSwiftPackageReference "ZipArchive" */;
+			productName = ZipArchive;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 655ED7C92A8C98D600800FC4 /* Project object */;
 }
